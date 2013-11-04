@@ -16,6 +16,8 @@ Timing sync or promise-returning functions.
 ## Example
 
 ```javascript
+var time = require('time-promise');
+
 var value = time(syncFunction)();
 // prints timing, returns value from syncFunction
 
