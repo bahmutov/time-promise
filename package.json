@@ -4,7 +4,7 @@
   "description": "Timing sync or promise-returning functions ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/gt test.js --output"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "dependencies": {
     "lodash": "~2.2.1",
     "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "gt": "~0.8.16"
   }
 }
