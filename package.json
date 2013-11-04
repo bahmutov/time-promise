@@ -1,5 +1,5 @@
 {
-  "name": "time",
+  "name": "time-promise",
   "version": "0.0.0",
   "description": "Timing sync or promise-returning functions ",
   "main": "index.js",
