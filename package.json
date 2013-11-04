@@ -6,9 +6,10 @@
   "scripts": {
     "test": "node ./node_modules/gt test.js --output"
   },
+  "pre-commit": "npm test",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bahmutov/time.git"
+    "url": "git://github.com/bahmutov/time-promise.git"
   },
   "keywords": [
     "node",
@@ -19,13 +20,14 @@
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bahmutov/time/issues"
+    "url": "https://github.com/bahmutov/time-promise/issues"
   },
   "dependencies": {
     "lodash": "~2.2.1",
     "q": "~0.9.7"
   },
   "devDependencies": {
-    "gt": "~0.8.16"
+    "gt": "~0.8.16",
+    "pre-git": "0.0.13"
   }
 }
