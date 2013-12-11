@@ -1,6 +1,6 @@
 {
   "name": "time-promise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Timing sync or promise-returning functions ",
   "main": "index.js",
   "scripts": {
@@ -23,11 +23,11 @@
     "url": "https://github.com/bahmutov/time-promise/issues"
   },
   "dependencies": {
-    "lodash": "~2.3.0",
+    "lodash": "~2.4.1",
     "q": "~0.9.7"
   },
   "devDependencies": {
     "gt": "~0.8.20",
-    "pre-git": "0.0.13"
+    "pre-git": "0.0.14"
   }
 }
